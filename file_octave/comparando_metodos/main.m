@@ -19,7 +19,7 @@ end
 
 t=0:.1:10;
 
-# Line Styler:|'-'|'--'|'-.'|':'|
+# Line Styler:|'-'|'--'|'-.'|'o'|
 # marker: | '*' | '+' | '.' | '<' | '>' | '^' | 'd' | 'diamond' | 'h'| 'hexagram' |
 #         | {'none'} | 'o' | 'p' | 'pentagram' | 's' | 'square' | 'v' | 'x'|
 # more in < https://octave.org/doc/v4.2.1/Line-Properties.html#Line-Properties >
