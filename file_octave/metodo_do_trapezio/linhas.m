@@ -1,4 +1,4 @@
-function [x1, x2, c] = linhas(x, y, c);
+function [x1, y1] = linhas(x, y, c);
 	x1=[];, y1=[y(1)];
 	
 	for i = 1:1:length(x)-1;
@@ -7,6 +7,4 @@ function [x1, x2, c] = linhas(x, y, c);
 	end
 	x1 = [x1, x(end), x(end)];
 	y1 = [y1, 0];
-	
-	plot(x1, y1, c);
 end
