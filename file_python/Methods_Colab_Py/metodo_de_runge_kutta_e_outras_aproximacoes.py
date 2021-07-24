@@ -25,11 +25,8 @@ def metodo_do_ponto_central(x0, y0, h):
     return y1
 
 def metodo_de_runge_kutta_2_ordem(x0, y0, h):
-    c1 = 1/2 
-    c2 = 1/2 
-
+    c1, c2 = 1/2, 1/2
     a2 = 1 
-
     b21 = 1 
 
     k1 = g(x0, y0)
