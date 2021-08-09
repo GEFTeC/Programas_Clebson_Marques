@@ -112,7 +112,7 @@ for i in range(QUANTIDADE):
 mat.ylim(0, 40000)
 mat.xlim(0, 10)
 
-    t = n.arange(0, 10, 0.1)
+t = n.arange(0, 10, 0.1)
     
 mat.plot(t, -t-1+2*n.exp(t), color='g', label='Curva solução')
 
