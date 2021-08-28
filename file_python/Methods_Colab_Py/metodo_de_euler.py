@@ -2,7 +2,7 @@ import matplotlib.pyplot as mat
 import numpy as n
 
 def g(x, y):
-    FUNCTION = x+ 
+    FUNCTION = x+y 
     return FUNCTION
 
 def euler(x0, y0, h): 
